@@ -77,6 +77,7 @@ h1{
     justify-content: center;
     align-items: center;
     grid-template-columns: 2fr 1fr;
+
 }
 footer{
     background-color:cadetblue ;
