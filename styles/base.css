@@ -34,7 +34,7 @@ h1 {
     text-align: center;
 }
 nav li{
-    float: center;
+    text-align: center;
 }
 nav a:hover{
     background-color: rgb(13, 11, 11);
@@ -53,35 +53,43 @@ h1{
     background-color:cadetblue ;
 }
 .card{
-    background-color:cadetblue ;
+    background-color:#579fc3 ;
     height: 200px;
-    width: 200px;
-    justify-content: flex;
+    width: 400px;
+    justify-content:center;
     border: 1px solid cadetblue;
     border-radius: 10px;
     margin: 1rem;
+    border-color: #161515;
+    
 
 }
 .card h2{
     background-color:whitesmoke ;
-    text-align: center;
+    text-align:center;
 
 }
 .card p{
     align-items: center;
-    padding: 1;
-    margin: 0;
+    padding:1rem;;
+    margin:8px;
 }
 .box{
     display: flex;
     justify-content: center;
     align-items: center;
     grid-template-columns: 2fr 1fr;
+    background-color:cadetblue  ;
+    
+    
 
 }
 footer{
     background-color:cadetblue ;
+    height: 100px;
 }
 footer p{
-    text-align: center;
+    text-align:center;
+    line-height: 1.6em;
+    
 }
