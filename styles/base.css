@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Big Shoulders Stencil', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -92,4 +92,8 @@ footer p{
     text-align:center;
     line-height: 1.6em;
     
+}
+h1, h2 {
+    font-family: 'Big Shoulders Stencil', sans-serif;
+    font-weight: 700; 
 }
