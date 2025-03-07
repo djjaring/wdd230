@@ -1,12 +1,15 @@
-
-document.getElementById("year").textContent = new Date().getFullYear();
-
+// Ensure the script runs only after the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
-    
-    document.getElementById("year").textContent = new Date().getFullYear();
+    // Set the current year in the footer
+    const yearElement = document.getElementById("year");
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    } else {
+        console.error("Element with ID 'year' not found.");
+    }
 
-    
-    let lastModifiedElement = document.getElementById("lastModified");
+    // Set the last modified date in the footer
+    const lastModifiedElement = document.getElementById("lastModified");
     if (lastModifiedElement) {
         lastModifiedElement.textContent = "Last Modified: " + document.lastModified;
     } else {
