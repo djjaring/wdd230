@@ -48,6 +48,7 @@ header{
 }
 header h1{
     text-align:center;
+    color: #000;
 }
 h1{
     background-color:cadetblue ;
@@ -96,4 +97,11 @@ footer p{
 h1, h2 {
     font-family: 'Big Shoulders Stencil', sans-serif;
     font-weight: 700; 
+}
+
+ul li a {
+    color: rgb(244, 242, 242);
+}
+.card a{
+    color: #161515;
 }
